@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.862 s <<< FAILURE! - in TestSuite
+login(TestPages.WebPageLoginTest)  Time elapsed: 24.899 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//main/div/div"}
+  (Session info: MicrosoftEdge=101.0.1210.53)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Udits-Air', ip: 'fe80:0:0:0:453:2dfe:3c96:425e%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.4', java.version: '17.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9300c35c61a8bf692a685e91abcb968e, findElement {using=xpath, value=//main/div/div}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 101.0.1210.53, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:51854}, msedge: {msedgedriverVersion: 101.0.1210.53 (019dbf6dd738..., userDataDir: /var/folders/nk/vsb1b27d5hg...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:51854/devtoo..., se:cdpVersion: 101.0.1210.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9300c35c61a8bf692a685e91abcb968e
+	at TestPages.WebPageLoginTest.login(WebPageLoginTest.java:39)
+

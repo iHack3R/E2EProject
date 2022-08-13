@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="/Users/uditkumar/Library/Mobile Documents/com~apple~CloudDocs/IdeaProjects/E2EProject(failed)" verbose="0">
+    <classes>
+      <class name="TestPages.WebPageLoginTest">
+        <methods>
+          <include name="login" invocation-numbers="1"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestPages.WebPageLoginTest -->
+    </classes>
+  </test> <!-- /Users/uditkumar/Library/Mobile Documents/com~apple~CloudDocs/IdeaProjects/E2EProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
